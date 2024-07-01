@@ -115,6 +115,8 @@ h1, h2, p {
   cursor: pointer;
   display: flex;
   align-items: center;
+  z-index: 1000;
+  position: relative;
 }
 .header__burgerMenu {
   width: 43.37px;
