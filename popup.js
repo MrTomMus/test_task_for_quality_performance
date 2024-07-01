@@ -2,9 +2,6 @@ const btnPopup = document.querySelectorAll('.buttonPopUp');
 const popUpcontainer = document.querySelector('.popup-container');
 const popup = document.querySelector('.popup-container__popup');
 
-console.log(btnPopup)
-
-
 btnPopup.forEach(elem => elem.addEventListener('click', () => {
     popUpcontainer.classList.toggle('popup-container--active')
 }))
